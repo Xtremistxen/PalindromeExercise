@@ -17,7 +17,7 @@ public class WordSmith
 
         var wordCharArray = thuum.ToCharArray();
         Array.Reverse(wordCharArray);
-        var reversed = new string(wordCharArray);
+        reversed = new string(wordCharArray);
 
         if (thuum.ToLower() == reversed.ToLower())
         {
